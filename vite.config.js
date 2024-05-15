@@ -1,16 +1,18 @@
-const { defineConfig } = require('vite')
+// vite.config.js
+import { resolve } from 'path'
+import { defineConfig } from 'vite'
 
-module.exports = defineConfig({
-    build: {
-        rollupOptions: {
-            input: {
-                main: './index.html',
-                about: './about.html',
-                menu: './menu.html',
-                gallery: './gallery.html',
-                contact: './contact.html',
-                formSuccess: './form-success.html',
-            }
-        }
-    }
+export default defineConfig({
+  build: {
+    rollupOptions: {
+      input: {
+        main: resolve(__dirname, 'index.html'),
+        about: resolve(__dirname, 'about.html'),
+        menu: resolve(__dirname, 'menu.html'),
+        gallery: resolve(__dirname, 'gallery.html'),
+        contact: resolve(__dirname, 'contact.html'),
+        success: resolve(__dirname, 'form-success.html'),
+      },
+    },
+  },
 })
