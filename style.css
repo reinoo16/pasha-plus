@@ -32,26 +32,18 @@ body {
   margin: auto;
 }
 
+.absolute-important {
+  position: absolute !important;
+}
+
+@media (min-width:640px) {
+  .relative-important {
+    position: relative !important;
+  }
+}
+
 .navbar {
   transition: all 300ms;
-}
-
-.active-navbar div ul li.active {
-  color: var(--secondary);
-}
-
-.active-navbar div ul li {
-  color: var(--secondary75);
-}
-
-.navbar.active-navbar div ul li:hover {
-  font-weight: 700;
-  color: var(--secondary);
-}
-
-.navbar div ul li:hover {
-  font-weight: 700;
-  color: var(--text);
 }
 
 .active-navbar {
@@ -62,32 +54,55 @@ body {
   fill: var(--secondary);
 }
 
-.navbar-items.absolute li,
-.navbar-items.absolute-important li {
-  color: var(--secondary75);
-  font-weight: 400;
-}
-
-.navbar-items.absolute .active,
-.navbar-items.absolute-important .active {
-  color: var(--secondary);
-  font-weight: 700;
-}
-
 .navbar-items li {
-  color: var(--text75);
-  font-weight: 400;
   transition: all 300ms;
 }
 
-.navbar-items .active {
-  color: var(--text);
-  font-weight: 700;
+@media (max-width: 640px) {
+  .navbar-items li {
+    color: var(--secondary75);
+    font-weight: 400;
+  }
+
+  .navbar-items .active {
+    color: var(--secondary);
+    font-weight: 700;
+  }
+
+  .navbar-items li:hover {
+    font-weight: 700;
+    color: var(--secondary);
+  }
 }
 
-.navbar-items.absolute li:hover {
-  font-weight: 700;
-  color: var(--secondary);
+@media (min-width: 640px) {
+  .navbar-items li {
+    color: var(--text75);
+    font-weight: 400;
+  }
+
+  .navbar-items .active {
+    color: var(--text);
+    font-weight: 700;
+  }
+
+  .active-navbar li {
+    color: var(--secondary75);
+  }
+
+  .active-navbar .active {
+    color: var(--secondary) !important;
+  }
+
+  .active-navbar div ul li:hover {
+    color: var(--secondary);
+    font-weight: 700;
+  }
+
+  .navbar-items li:hover {
+    font-weight: 700;
+    color: var(--text);
+  }
 }
 
 .menu-card.hide {

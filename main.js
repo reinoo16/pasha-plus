@@ -10,10 +10,12 @@ window.addEventListener('scroll', function () {
 })
 
 const navbarItems = document.querySelector(".navbar-items");
-document.querySelector(".navbar-toggle").addEventListener('click', function () {
-    navbarItems.classList.add('w-full');
-    navbarItems.style.padding = '30px 30px';
-});
+if (document.querySelector(".navbar-toggle")) {
+    document.querySelector(".navbar-toggle").addEventListener('click', function () {
+        navbarItems.classList.add('w-full');
+        navbarItems.style.padding = '30px 30px';
+    });
+}
 
 document.querySelector(".nav-close").addEventListener('click', function () {
     navbarItems.classList.remove('w-full');
