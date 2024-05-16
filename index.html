@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <link rel="icon" type="image/svg+xml" href="/vite.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Cafe Website - Home</title>
+  <title>Brew Coffee - Home</title>
   <meta name="description"
     content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas auctor lacus a porta condimentum. Morbi bibendum varius lobortis. Pellentesque et diam vitae metus sodales egestas.">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
@@ -15,12 +15,13 @@
   <div id="app">
     <!-- hero -->
     <div
-      class="relative flex items-center justify-center z-50 w-full h-[100vh] animate__animated animate__fadeIn bg-[url('public/hero-bg.jpeg')] bg-cover bg-center">
+      class="relative flex items-center justify-center z-50 w-full h-[100vh] animate__animated animate__fadeIn bg-[url('public/hero-section-bg.webp')] bg-cover bg-center">
       <div class="absolute w-full z-[1] h-full left-0 top-0 bg-[rgba(0,0,0,0.75)]"></div>
       <nav
         class="fixed animate__animated animate__slideInDown navbar top-0 left-0 w-full z-[99] bg-transparent px-[20px] md:px-[60px] 3xl:px-[200px]">
-        <div class="flex justify-between items-center w-full min-h-[70px] bg-transparent">
-          <h1 class="font-playfair font-black text-[30px] sm:text-[36px]">LOGO</h1>
+        <div class="flex justify-between items-center w-full min-h-[100px] bg-transparent">
+          <img class="w-[75px]" src="logo.jpg" alt="brew coffee logo">
+          <!-- <h1 class="font-playfair font-black text-[30px] sm:text-[36px]">LOGO</h1> -->
           <svg class="w-[26px] h-[26px] cursor-pointer inline-block sm:hidden navbar-toggle"
             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
             <path fill="#fff"
@@ -34,32 +35,32 @@
                 d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z" />
             </svg>
             <li class="active text-[20px] sm:text-[18px]">
-              <a href="index.html">Home</a>
+              <a href="">Home</a>
             </li>
             <li class="text-[20px] sm:text-[18px]">
-              <a href="about.html">About</a>
+              <a href="">About</a>
             </li>
             <li class="text-[20px] sm:text-[18px]">
-              <a href="menu.html">Menu</a>
+              <a href="">Menu</a>
             </li>
             <li class="text-[20px] sm:text-[18px]">
-              <a href="gallery.html">Gallery</a>
+              <a href="">Gallery</a>
             </li>
             <li class="text-[20px] sm:text-[18px]">
-              <a href="contact.html">Contact</a>
+              <a href="">Contact</a>
             </li>
           </ul>
         </div>
       </nav>
       <div class="flex flex-col z-[3] w-full items-center px-[20px] gap-[40px]">
         <div class="flex flex-col text-center w-full z-[3] items-center gap-[24px]">
-          <h1
+          <!-- <h1
             class="font-playfair animate__animated animate__slideInDown font-black leading-[100%] text-primary text-[36px] md:text-[40px] xl:text-[48px]">
-            LOGO</h1>
+            LOGO</h1> -->
+          <img class="w-[130px] animate__animated animate__slideInDown" src="logo.jpg" alt="brew coffee logo">
           <h1
             class="font-playfair animate__animated animate__slideInLeft font-bold w-full lg:w-auto leading-[100%] text-[46px] md:text-[56px] xl:text-[76px]">
-            Sweet Break:
-            Café Bliss!</h1>
+            Sweet Break: Brew Coffee!</h1>
           <p class="description-title animate__animated animate__slideInUp w-full lg:w-[790px]">Lorem ipsum dolor sit
             amet, consectetur
             adipiscing
@@ -67,8 +68,7 @@
             Maecenas eros lacus, tempor eu nulla vitae, molestie dignissim libero. Donec congue congue magna ac euismod.
           </p>
         </div>
-        <a class="animate__animated animate__backInUp" href="contact.html"><button
-            class="button-64">Contact</button></a>
+        <a class="animate__animated animate__backInUp" href=""><button class="button-64">Contact</button></a>
       </div>
     </div>
     <div class="container">
@@ -76,7 +76,7 @@
       <section class="w-full about-section animate-section mt-[100px]">
         <div class="flex flex-col lg:flex-row items-start lg:items-center gap-[40px] w-full">
           <div class="relative animate__animated about-left w-full lg:min-w-[513px] xl:max-w-[513px] lg:min-h-[513px]">
-            <img loading="lazy" src="public/about-img.jpeg" class="min-w-full min-h-full object-cover object-center" loading="lazy" alt="">
+            <img loading="lazy" src="public/about-img.jpg" class="min-h-[513px] object-cover object-center" alt="">
           </div>
           <div class="flex flex-col animate__animated about-right w-full gap-[34px]">
             <div class="flex flex-col gap-[14px]">
@@ -89,7 +89,7 @@
               Maecenas eros lacus, tempor eu nulla vitae, molestie dignissim libero. Donec congue congue magna ac
               euismod. Cras hendrerit sem eu purus ultrices laoreet. Vestibulum commodo elit in odio lacinia, quis
               faucibus justo rutrum. Cras euismod malesuada ligula, in mattis mi hendrerit sit amet.</p>
-            <a href="about.html">
+            <a href="">
               <div class="button-58">Browse</div>
             </a>
           </div>
@@ -104,171 +104,131 @@
               <h1 class="lg-title text-center">Discover: Our Varied Menu!</h1>
             </div>
             <div class="filter_buttons animate__animated flex flex-wrap justify-center items-center gap-[20px]">
-              <button data-name="coffees" class="button-50 min-w-[170px] button-50__active">Coffees</button>
-              <button data-name="snacks" class="button-50 min-w-[170px]">Snacks</button>
-              <button data-name="desserts" class="button-50 min-w-[170px]">Desserts</button>
-              <button data-name="beverages" class="button-50 min-w-[170px]">Beverages</button>
+              <button data-name="coffee" class="button-50 min-w-[170px] button-50__active">Coffee</button>
+              <button data-name="special-drinks" class="button-50 min-w-[170px]">Special Drinks</button>
+              <button data-name="filter-coffee" class="button-50 min-w-[170px]">Filter Coffee</button>
             </div>
           </div>
           <div
             class="menu_cards animate__animated grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[60px] xl:gap-[85px] items-start justify-around w-full">
-            <div data-name="desserts" class="menu-card hide">
+            <div data-name="coffee" class="menu-card">
               <div class="relative w-full h-[365px]">
-                <img loading="lazy" class="w-full h-full object-center object-cover" src="menu-card-img1_1.jpeg"
-                  onclick="openModalDesserts('menu-card-img1_1.jpeg')" loading="lazy" alt="">
-              </div>
-              <div class="menu-card__texts">
-                <h1 class="menu-card__texts-title">Cheesecake</h1>
-                <span class="menu-card__texts-price">$5</span>
-                <p class="description-title leading-[100%]">Cheesecake, with its light and creamy texture, is the
-                  perfect choice for a
-                  delightful dessert break, pleasing the palate with every bite.</p>
-              </div>
-            </div>
-            <div data-name="desserts" class="menu-card hide">
-              <div class="relative w-full h-[365px]">
-                <img loading="lazy" class="w-full h-full object-center object-cover" loading="lazy" src="menu-card-img1_2.jpeg"
-                  onclick="openModalDesserts('menu-card-img1_2.jpeg')" alt="">
-              </div>
-              <div class="menu-card__texts">
-                <h1 class="menu-card__texts-title">Cheesecake</h1>
-                <span class="menu-card__texts-price">$5</span>
-                <p class="description-title leading-[100%]">Cheesecake, with its light and creamy texture, is the
-                  perfect choice for a
-                  delightful dessert break, pleasing the palate with every bite.</p>
-              </div>
-            </div>
-            <div data-name="desserts" class="menu-card hide">
-              <div class="relative w-full h-[365px]">
-                <img loading="lazy" class="w-full h-full object-center object-cover" loading="lazy" src="menu-card-img1_3.jpeg"
-                  onclick="openModalDesserts('menu-card-img1_3.jpeg')" alt="">
-              </div>
-              <div class="menu-card__texts">
-                <h1 class="menu-card__texts-title">Cheesecake</h1>
-                <span class="menu-card__texts-price">$5</span>
-                <p class="description-title leading-[100%]">Cheesecake, with its light and creamy texture, is the
-                  perfect choice for a
-                  delightful dessert break, pleasing the palate with every bite.</p>
-              </div>
-            </div>
-            <div data-name="coffees" class="menu-card">
-              <div class="relative w-full h-[365px]">
-                <img loading="lazy" class="w-full h-full object-center object-cover" loading="lazy" src="menu-card-img2_1.jpeg"
-                  onclick="openModalCoffees('menu-card-img2_1.jpeg')" alt="">
+                <img loading="lazy" class="w-full h-full object-center object-cover" src="espresso.jpg"
+                  onclick="openModalCoffees('espresso.jpg')" loading="lazy" alt="espresso">
               </div>
               <div class="menu-card__texts">
                 <h1 class="menu-card__texts-title">Espresso</h1>
-                <span class="menu-card__texts-price">$6</span>
+                <span class="menu-card__texts-price">$5</span>
                 <p class="description-title leading-[100%]">Espresso is a concentrated coffee beverage brewed by forcing
                   hot water under pressure through finely-ground coffee beans</p>
               </div>
             </div>
-            <div data-name="coffees" class="menu-card">
+            <div data-name="coffee" class="menu-card">
               <div class="relative w-full h-[365px]">
-                <img loading="lazy" class="w-full h-full object-center object-cover" loading="lazy" src="menu-card-img2_2.jpeg"
-                  onclick="openModalCoffees('menu-card-img2_2.jpeg')" alt="">
+                <img loading="lazy" class="w-full h-full object-center object-cover" loading="lazy" src="flat-white.jpg"
+                  onclick="openModalCoffees('flat-white.jpg')" alt="">
               </div>
               <div class="menu-card__texts">
-                <h1 class="menu-card__texts-title">Espresso</h1>
+                <h1 class="menu-card__texts-title">Flat White</h1>
+                <span class="menu-card__texts-price">$5</span>
+                <p class="description-title leading-[100%]">
+                  A flat white is a popular coffee drink originating from Australia and New Zealand. It consists of
+                  espresso and steamed milk with a thin layer of microfoam.</p>
+              </div>
+            </div>
+            <div data-name="coffee" class="menu-card">
+              <div class="relative w-full h-[365px]">
+                <img loading="lazy" class="w-full h-full object-center object-cover" loading="lazy" src="cappucino.jpg"
+                  onclick="openModalCoffees('cappucino.jpg')" alt="">
+              </div>
+              <div class="menu-card__texts">
+                <h1 class="menu-card__texts-title">Cappucino</h1>
+                <span class="menu-card__texts-price">$5</span>
+                <p class="description-title leading-[100%]">
+                  Cappuccino is a classic coffee drink originating from Italy. It is made with equal parts espresso,
+                  steamed milk, and milk foam.</p>
+              </div>
+            </div>
+            <div data-name="special-drinks" class="menu-card hide">
+              <div class="relative w-full h-[365px]">
+                <img loading="lazy" class="w-full h-full object-center object-cover" loading="lazy"
+                  src="mocha-latte.jpg" onclick="openModalSpecials('mocha-latte.jpg')" alt="">
+              </div>
+              <div class="menu-card__texts">
+                <h1 class="menu-card__texts-title">Mocha Latte</h1>
                 <span class="menu-card__texts-price">$6</span>
-                <p class="description-title leading-[100%]">Espresso is a concentrated coffee beverage brewed by forcing
-                  hot water under pressure through finely-ground coffee beans</p>
+                <p class="description-title leading-[100%]">
+                  A mocha latte is a delicious blend of coffee and chocolate. It is made with espresso, steamed milk,
+                  and hot chocolate or chocolate syrup.</p>
               </div>
             </div>
-            <div data-name="coffees" class="menu-card">
+            <div data-name="special-drinks" class="menu-card hide">
               <div class="relative w-full h-[365px]">
-                <img loading="lazy" class="w-full h-full object-center object-cover" loading="lazy" src="menu-card-img2_3.jpeg"
-                  onclick="openModalCoffees('menu-card-img2_3.jpeg')" alt="">
+                <img loading="lazy" class="w-full h-full object-center object-cover" loading="lazy"
+                  src="caramel-latte.jpg" onclick="openModalSpecials('caramel-latte.jpg')" alt="">
               </div>
               <div class="menu-card__texts">
-                <h1 class="menu-card__texts-title">Espresso</h1>
+                <h1 class="menu-card__texts-title">Caramel Latte</h1>
                 <span class="menu-card__texts-price">$6</span>
-                <p class="description-title leading-[100%]">Espresso is a concentrated coffee beverage brewed by forcing
-                  hot water under pressure through finely-ground coffee beans</p>
+                <p class="description-title leading-[100%]">A caramel latte is a sweet and creamy coffee drink made with
+                  espresso, steamed milk, and caramel syrup. It is often topped with whipped cream and extra caramel
+                  sauce.</p>
               </div>
             </div>
-            <div data-name="snacks" class="menu-card hide">
+            <div data-name="special-drinks" class="menu-card hide">
               <div class="relative w-full h-[365px]">
-                <img loading="lazy" class="w-full h-full object-center object-cover" loading="lazy" src="menu-card-img3_1.jpeg"
-                  onclick="openModalSnacks('menu-card-img3_1.jpeg')" alt="">
+                <img loading="lazy" class="w-full h-full object-center object-cover" loading="lazy"
+                  src="hot-chocolate.jpg" onclick="openModalSpecials('hot-chocolate.jpg')" alt="">
               </div>
               <div class="menu-card__texts">
-                <h1 class="menu-card__texts-title">Nachos</h1>
+                <h1 class="menu-card__texts-title">Hot Chocolate</h1>
+                <span class="menu-card__texts-price">$6</span>
+                <p class="description-title leading-[100%]">
+                  Hot chocolate is a sweet and warm beverage made by mixing cocoa powder or melted chocolate with hot
+                  milk or water.</p>
+              </div>
+            </div>
+            <div data-name="filter-coffee" class="menu-card hide">
+              <div class="relative w-full h-[365px]">
+                <img loading="lazy" class="w-full h-full object-center object-cover" loading="lazy" src="batch-brew.jpg"
+                  onclick="openModalFilter('batch-brew.jpg')" alt="">
+              </div>
+              <div class="menu-card__texts">
+                <h1 class="menu-card__texts-title">Batch Brew</h1>
                 <span class="menu-card__texts-price">$4</span>
                 <p class="description-title leading-[100%]">
-                  Nachos are a popular snack originating from Mexican cuisine. They typically consist of crispy corn
-                  tortilla chips served with melted cheese and a variety of toppings such as salsa, jalapeno peppers,
-                  guacamole, sour cream, and beans.</p>
+
+                  Batch brew is a type of filter coffee prepared in bulk in coffee shops or cafe settings. It is
+                  typically brewed in large quantities and kept at a consistent temperature.</p>
               </div>
             </div>
-            <div data-name="snacks" class="menu-card hide">
+            <div data-name="filter-coffee" class="menu-card hide">
               <div class="relative w-full h-[365px]">
-                <img loading="lazy" class="w-full h-full object-center object-cover" loading="lazy" src="menu-card-img3_2.jpeg"
-                  onclick="openModalSnacks('menu-card-img3_2.jpeg')" alt="">
+                <img loading="lazy" class="w-full h-full object-center object-cover" loading="lazy" src="aeropress.jpg"
+                  onclick="openModalFilter('aeropress.jpg')" alt="">
               </div>
               <div class="menu-card__texts">
-                <h1 class="menu-card__texts-title">Nachos</h1>
+                <h1 class="menu-card__texts-title">Aeropress</h1>
                 <span class="menu-card__texts-price">$4</span>
                 <p class="description-title leading-[100%]">
-                  Nachos are a popular snack originating from Mexican cuisine. They typically consist of crispy corn
-                  tortilla chips served with melted cheese and a variety of toppings such as salsa, jalapeno peppers,
-                  guacamole, sour cream, and beans.</p>
+
+                  The AeroPress is a popular coffee brewing device known for its simplicity and versatility. It consists
+                  of two cylindrical chambers, one of which fits into the other, along with a filter cap and a plunger.
+                </p>
               </div>
             </div>
-            <div data-name="snacks" class="menu-card hide">
+            <div data-name="filter-coffee" class="menu-card hide">
               <div class="relative w-full h-[365px]">
-                <img loading="lazy" class="w-full h-full object-center object-cover" loading="lazy" src="menu-card-img3_3.jpeg"
-                  onclick="openModalSnacks('menu-card-img3_3.jpeg')" alt="">
+                <img loading="lazy" class="w-full h-full object-center object-cover" loading="lazy" src="chemex.jpg"
+                  onclick="openModalFilter('chemex.jpg')" alt="">
               </div>
               <div class="menu-card__texts">
-                <h1 class="menu-card__texts-title">Nachos</h1>
+                <h1 class="menu-card__texts-title">Chemex</h1>
                 <span class="menu-card__texts-price">$4</span>
                 <p class="description-title leading-[100%]">
-                  Nachos are a popular snack originating from Mexican cuisine. They typically consist of crispy corn
-                  tortilla chips served with melted cheese and a variety of toppings such as salsa, jalapeno peppers,
-                  guacamole, sour cream, and beans.</p>
-              </div>
-            </div>
-            <div data-name="beverages" class="menu-card hide">
-              <div class="relative w-full h-[365px]">
-                <img loading="lazy" class="w-full h-full object-center object-cover" loading="lazy" src="menu-card-img4_1.jpeg"
-                  onclick="openModalBeverages('menu-card-img4_1.jpeg')" alt="">
-              </div>
-              <div class="menu-card__texts">
-                <h1 class="menu-card__texts-title">Mango Smoothie</h1>
-                <span class="menu-card__texts-price">$5</span>
-                <p class="description-title leading-[100%]">
-                  Mango smoothies are a delightful blend of tropical sweetness and creamy indulgence. Made by combining
-                  ripe mangoes with yogurt or milk, ice, and sometimes a hint of honey or lime juice, these refreshing
-                  beverages are perfect for a sunny day or as a nutritious snack</p>
-              </div>
-            </div>
-            <div data-name="beverages" class="menu-card hide">
-              <div class="relative w-full h-[365px]">
-                <img loading="lazy" class="w-full h-full object-center object-cover" loading="lazy" src="menu-card-img4_2.jpeg"
-                  onclick="openModalBeverages('menu-card-img4_2.jpeg')" alt="">
-              </div>
-              <div class="menu-card__texts">
-                <h1 class="menu-card__texts-title">Mango Smoothie</h1>
-                <span class="menu-card__texts-price">$5</span>
-                <p class="description-title leading-[100%]">
-                  Mango smoothies are a delightful blend of tropical sweetness and creamy indulgence. Made by combining
-                  ripe mangoes with yogurt or milk, ice, and sometimes a hint of honey or lime juice, these refreshing
-                  beverages are perfect for a sunny day or as a nutritious snack</p>
-              </div>
-            </div>
-            <div data-name="beverages" class="menu-card hide">
-              <div class="relative w-full h-[365px]">
-                <img loading="lazy" class="w-full h-full object-center object-cover" loading="lazy" src="menu-card-img4_3.jpeg"
-                  onclick="openModalBeverages('menu-card-img4_3.jpeg')" alt="">
-              </div>
-              <div class="menu-card__texts">
-                <h1 class="menu-card__texts-title">Mango Smoothie</h1>
-                <span class="menu-card__texts-price">$5</span>
-                <p class="description-title leading-[100%]">
-                  Mango smoothies are a delightful blend of tropical sweetness and creamy indulgence. Made by combining
-                  ripe mangoes with yogurt or milk, ice, and sometimes a hint of honey or lime juice, these refreshing
-                  beverages are perfect for a sunny day or as a nutritious snack</p>
+
+                  The Chemex is a specialized coffee brewing equipment made of glass. It features a sleek and elegant
+                  design, with a wide top resembling a funnel and a narrow neck at the bottom.</p>
               </div>
             </div>
           </div>
@@ -302,10 +262,10 @@
               </button>
             </div>
           </div>
-          <!-- snacks modal -->
+          <!-- specials modal -->
           <div
-            class="snacks-modal hidden overflow-x-hidden transition-opacity duration-300 opacity-0 fixed z-[-999] left-0 top-0 w-full h-full overflow-auto bg-[rgba(0,0,0,0.9)]">
-            <button onclick="closeModalSnacks()"><svg
+            class="specials-modal hidden overflow-x-hidden transition-opacity duration-300 opacity-0 fixed z-[-999] left-0 top-0 w-full h-full overflow-auto bg-[rgba(0,0,0,0.9)]">
+            <button onclick="closeModalSpecials()"><svg
                 class="close absolute right-[20px] top-[20px] lg:right-[40px] lg:top-[40px] w-[30px]"
                 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
                 <path fill="#fff"
@@ -315,47 +275,16 @@
             <div
               class="absolute lg:relative left-[50%] w-full px-[20px] top-[50%] translate-x-[-50%] translate-y-[-50%] flex items-center justify-center sm:gap-[40px] lg:gap-[60px]">
               <button class="absolute left-[20%] bottom-[-70px] sm:relative sm:left-auto sm:bottom-auto"
-                onclick="showPrevImageSnacks()">
-                <svg class="w-[24px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                  <path fill="#fff"
-                    d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 246.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z" />
-                </svg>
-              </button>
-              <img loading="lazy" src="" class="modal-img-snacks w-full lg:w-[700px] h-[500px] md:h-[700px] object-cover object-center"
-                alt="">
-              <button class="absolute right-[20%] bottom-[-70px] sm:relative sm:right-auto sm:bottom-auto"
-                onclick="showNextImageSnacks()">
-                <svg class="w-[24px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                  <path fill="#fff"
-                    d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
-                </svg>
-              </button>
-            </div>
-          </div>
-          <!-- beverages modal -->
-          <div
-            class="beverages-modal hidden overflow-x-hidden transition-opacity duration-300 opacity-0 fixed z-[-999] left-0 top-0 w-full h-full overflow-auto bg-[rgba(0,0,0,0.9)]">
-            <button onclick="closeModalBeverages()"><svg
-                class="close absolute right-[20px] top-[20px] lg:right-[40px] lg:top-[40px] w-[30px]"
-                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
-                <path fill="#fff"
-                  d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z" />
-              </svg>
-            </button>
-            <div
-              class="absolute lg:relative left-[50%] w-full px-[20px] top-[50%] translate-x-[-50%] translate-y-[-50%] flex items-center justify-center sm:gap-[40px] lg:gap-[60px]">
-              <button class="absolute left-[20%] bottom-[-70px] sm:relative sm:left-auto sm:bottom-auto"
-                onclick="showPrevImageBeverages()">
+                onclick="showPrevImageSpecials()">
                 <svg class="w-[24px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
                   <path fill="#fff"
                     d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 246.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z" />
                 </svg>
               </button>
               <img loading="lazy" src=""
-                class="modal-img-beverages w-full lg:w-[700px] h-[500px] md:h-[700px] object-cover object-center"
-                alt="">
+                class="modal-img-specials w-full lg:w-[700px] h-[500px] md:h-[700px] object-cover object-center" alt="">
               <button class="absolute right-[20%] bottom-[-70px] sm:relative sm:right-auto sm:bottom-auto"
-                onclick="showNextImageBeverages()">
+                onclick="showNextImageSpecials()">
                 <svg class="w-[24px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
                   <path fill="#fff"
                     d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
@@ -363,10 +292,10 @@
               </button>
             </div>
           </div>
-          <!-- desserts modal -->
+          <!-- filter modal -->
           <div
-            class="desserts-modal hidden overflow-x-hidden transition-opacity duration-300 opacity-0 fixed z-[-999] left-0 top-0 w-full h-full overflow-auto bg-[rgba(0,0,0,0.9)]">
-            <button onclick="closeModalDesserts()"><svg
+            class="filter-modal hidden overflow-x-hidden transition-opacity duration-300 opacity-0 fixed z-[-999] left-0 top-0 w-full h-full overflow-auto bg-[rgba(0,0,0,0.9)]">
+            <button onclick="closeModalFilter()"><svg
                 class="close absolute right-[20px] top-[20px] lg:right-[40px] lg:top-[40px] w-[30px]"
                 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
                 <path fill="#fff"
@@ -376,16 +305,17 @@
             <div
               class="absolute lg:relative left-[50%] w-full px-[20px] top-[50%] translate-x-[-50%] translate-y-[-50%] flex items-center justify-center sm:gap-[40px] lg:gap-[60px]">
               <button class="absolute left-[20%] bottom-[-70px] sm:relative sm:left-auto sm:bottom-auto"
-                onclick="showPrevImageDesserts()">
+                onclick="showPrevImageFilter()">
                 <svg class="w-[24px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
                   <path fill="#fff"
                     d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 246.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z" />
                 </svg>
               </button>
               <img loading="lazy" src=""
-                class="modal-img-desserts w-full lg:w-[700px] h-[500px] md:h-[700px] object-cover object-center" alt="">
+                class="modal-img-filter w-full lg:w-[700px] h-[500px] md:h-[700px] object-cover object-center"
+                alt="">
               <button class="absolute right-[20%] bottom-[-70px] sm:relative sm:right-auto sm:bottom-auto"
-                onclick="showNextImageDesserts()">
+                onclick="showNextImageFilter()">
                 <svg class="w-[24px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
                   <path fill="#fff"
                     d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
@@ -393,7 +323,7 @@
               </button>
             </div>
           </div>
-          <a class="menu-see animate__animated" href="menu.html">
+          <a class="menu-see animate__animated" href="">
             <div class="button-58 min-w-[200px]">See More</div>
           </a>
         </div>
@@ -407,28 +337,28 @@
           </div>
           <div class="grid grid-cols-1 gallery-cards animate__animated md:grid-cols-2 lg:grid-cols-3 gap-[20px] w-full">
             <div class="gallery-img">
-              <img loading="lazy" class="w-full h-full object-cover object-center" src="gallery-1.jpeg"
-                onclick="openModalGallery('gallery-1.jpeg')" alt="">
+              <img loading="lazy" class="w-full h-full object-cover object-center" src="gallery-1.jpg"
+                onclick="openModalGallery('gallery-1.jpg')" alt="">
             </div>
             <div class="gallery-img">
-              <img loading="lazy" class="w-full h-full object-cover object-center" src="gallery-2.jpeg"
-                onclick="openModalGallery('gallery-2.jpeg')" alt="">
+              <img loading="lazy" class="w-full h-full object-cover object-center" src="gallery-2.jpg"
+                onclick="openModalGallery('gallery-2.jpg')" alt="">
             </div>
             <div class="gallery-img">
-              <img loading="lazy" class="w-full h-full object-cover object-center" src="gallery-3.jpeg"
-                onclick="openModalGallery('gallery-3.jpeg')" alt="">
+              <img loading="lazy" class="w-full h-full object-cover object-center" src="gallery-3.jpg"
+                onclick="openModalGallery('gallery-3.jpg')" alt="">
             </div>
             <div class="gallery-img">
-              <img loading="lazy" class="w-full h-full object-cover object-center" src="gallery-4.jpeg"
-                onclick="openModalGallery('gallery-4.jpeg')" alt="">
+              <img loading="lazy" class="w-full h-full object-cover object-center" src="gallery-4.jpg"
+                onclick="openModalGallery('gallery-4.jpg')" alt="">
             </div>
             <div class="gallery-img">
-              <img loading="lazy" class="w-full h-full object-cover object-center" src="gallery-5.jpeg"
-                onclick="openModalGallery('gallery-5.jpeg')" alt="">
+              <img loading="lazy" class="w-full h-full object-cover object-center" src="gallery-5.jpg"
+                onclick="openModalGallery('gallery-5.jpg')" alt="">
             </div>
             <div class="gallery-img">
-              <img loading="lazy" class="w-full h-full object-cover object-center" src="gallery-6.jpeg"
-                onclick="openModalGallery('gallery-6.jpeg')" alt="">
+              <img loading="lazy" class="w-full h-full object-cover object-center" src="gallery-6.jpg"
+                onclick="openModalGallery('gallery-6.jpg')" alt="">
             </div>
           </div>
           <!-- gallery modal -->
@@ -461,7 +391,7 @@
               </button>
             </div>
           </div>
-          <a href="gallery.html">
+          <a href="">
             <div class="button-58 animate__animated gallery-see min-w-[200px]">See More</div>
           </a>
         </div>
@@ -469,7 +399,7 @@
     </div>
     <!-- get in touch with us -->
     <section
-      class="relative flex items-center animate__animated animate-section get-in-touch px-[20px] sm:px-[60px] justify-center mt-[100px] w-full h-auto bg-center bg-cover bg-[url(public/contact-bg.jpeg)] py-[69px]">
+      class="relative flex items-center animate__animated animate-section get-in-touch px-[20px] sm:px-[60px] justify-center mt-[100px] w-full h-auto bg-center bg-cover bg-[url(public/contact-bg.jpg)] py-[69px]">
       <div class="absolute left-0 top-0 z-[1] bg-[rgba(0,0,0,0.75)] min-w-full min-h-full"></div>
       <div class="flex flex-col z-[2] w-full items-center gap-[20px]">
         <h1 class="lg-title animate__animated touch-title text-center">Get in Touch with Us</h1>
@@ -479,27 +409,27 @@
           congue augue, ac
           faucibus turpis augue nec justo. Quisque dictum in nulla quis aliquet. Donec placerat diam eu placerat
           feugiat. Proin porta nibh vitae lorem ultricies congue.</p>
-        <a href="contact.html"><button
-            class="button-58 animate__animated touch-button min-w-[200px]">Contact</button></a>
+        <a href=""><button class="button-58 animate__animated touch-button min-w-[200px]">Contact</button></a>
       </div>
     </section>
     <footer
       class="relative flex flex-col animate-section footer animate__animated md:flex-row md:flex-wrap justify-around xl:justify-between items-center md:items-start gap-[60px] w-full px-[20px] md:px-[60px] 2xl:px-[140px] 3xl:px-[200px] mt-[100px]">
       <div class="flex flex-col items-center lg:items-start gap-[16px] w-full lg:w-[365px]">
-        <h1 class="font-playfair font-black text-primary text-[36px]">LOGO</h1>
+        <img class="w-[100px]" src="logo.jpg" alt="">
+        <!-- <h1 class="font-playfair font-black text-primary text-[36px]">LOGO</h1> -->
         <p class="description-title text-center lg:text-left">Lorem ipsum dolor sit amet, consectetur adipiscing
           elit. Maecenas eros
           lacus,
           tempor
           eu nulla vitae, molestie dignissim libero.</p>
         <div class="flex gap-[10px]">
-          <a href="">
+          <a target="_blank" href="https://www.instagram.com/brewcoffeebcn/">
             <div class="social-box">
               <svg width="23" height="26" viewBox="0 0 23 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0_10_89)">
                   <path
                     d="M11.5051 7.16025C8.23996 7.16025 5.60625 9.76533 5.60625 12.995C5.60625 16.2247 8.23996 18.8298 11.5051 18.8298C14.7703 18.8298 17.404 16.2247 17.404 12.995C17.404 9.76533 14.7703 7.16025 11.5051 7.16025ZM11.5051 16.7884C9.39509 16.7884 7.67009 15.0872 7.67009 12.995C7.67009 10.9028 9.38996 9.20166 11.5051 9.20166C13.6203 9.20166 15.3402 10.9028 15.3402 12.995C15.3402 15.0872 13.6152 16.7884 11.5051 16.7884ZM19.0212 6.92158C19.0212 7.67822 18.4051 8.28252 17.6453 8.28252C16.8804 8.28252 16.2694 7.67314 16.2694 6.92158C16.2694 6.17002 16.8855 5.56064 17.6453 5.56064C18.4051 5.56064 19.0212 6.17002 19.0212 6.92158ZM22.9281 8.30283C22.8408 6.47979 22.4199 4.86494 21.0696 3.53447C19.7246 2.204 18.092 1.7876 16.2489 1.69619C14.3493 1.58955 8.6558 1.58955 6.75625 1.69619C4.9183 1.78252 3.28572 2.19893 1.93549 3.52939C0.585269 4.85986 0.169421 6.47471 0.0770103 8.29775C-0.0308022 10.1767 -0.0308022 15.8083 0.0770103 17.6872C0.164287 19.5103 0.585269 21.1251 1.93549 22.4556C3.28572 23.786 4.91317 24.2024 6.75625 24.2938C8.6558 24.4005 14.3493 24.4005 16.2489 24.2938C18.092 24.2075 19.7246 23.7911 21.0696 22.4556C22.4147 21.1251 22.8357 19.5103 22.9281 17.6872C23.0359 15.8083 23.0359 10.1817 22.9281 8.30283ZM20.4741 19.7032C20.0737 20.6985 19.2984 21.4653 18.2871 21.8665C16.7725 22.4606 13.1788 22.3235 11.5051 22.3235C9.83147 22.3235 6.23259 22.4556 4.72322 21.8665C3.71697 21.4704 2.94174 20.7036 2.53616 19.7032C1.93549 18.2052 2.07411 14.6505 2.07411 12.995C2.07411 11.3396 1.94063 7.77979 2.53616 6.28682C2.93661 5.2915 3.71183 4.52471 4.72322 4.12353C6.23772 3.52939 9.83147 3.6665 11.5051 3.6665C13.1788 3.6665 16.7777 3.53447 18.2871 4.12353C19.2933 4.51963 20.0685 5.28643 20.4741 6.28682C21.0748 7.78486 20.9362 11.3396 20.9362 12.995C20.9362 14.6505 21.0748 18.2103 20.4741 19.7032Z"
-                    fill="#161616" />
+                    fill="#443416" />
                 </g>
                 <defs>
                   <clipPath id="clip0_10_89">
@@ -512,25 +442,9 @@
           <a href="">
             <div class="social-box">
               <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <g clip-path="url(#clip0_10_94)">
-                  <path
-                    d="M26 13.0484C26 5.84121 20.1805 0 13 0C5.81953 0 0 5.84121 0 13.0484C0 19.1649 4.19961 24.3027 9.86172 25.7146V17.0343H7.18047V13.0484H9.86172V11.3307C9.86172 6.8912 11.8625 4.83199 16.2094 4.83199C17.032 4.83199 18.4539 4.9951 19.0379 5.1582V8.76691C18.7332 8.73633 18.2 8.71594 17.5348 8.71594C15.402 8.71594 14.5793 9.52637 14.5793 11.6314V13.0484H18.8246L18.0934 17.0343H14.5742V26C21.0133 25.2202 26 19.7204 26 13.0484Z"
-                    fill="#161616" />
-                </g>
-                <defs>
-                  <clipPath id="clip0_10_94">
-                    <rect width="26" height="26" fill="white" />
-                  </clipPath>
-                </defs>
-              </svg>
-            </div>
-          </a>
-          <a href="">
-            <div class="social-box">
-              <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M2.4375 3.25C1.0918 3.25 0 4.3418 0 5.6875C0 6.4543 0.360547 7.17539 0.975 7.6375L12.025 15.925C12.6039 16.3566 13.3961 16.3566 13.975 15.925L25.025 7.6375C25.6395 7.17539 26 6.4543 26 5.6875C26 4.3418 24.9082 3.25 23.5625 3.25H2.4375ZM0 8.9375V19.5C0 21.2926 1.45742 22.75 3.25 22.75H22.75C24.5426 22.75 26 21.2926 26 19.5V8.9375L14.95 17.225C13.7922 18.0934 12.2078 18.0934 11.05 17.225L0 8.9375Z"
-                  fill="#161616" />
+                  fill="#443416" />
               </svg>
             </div>
           </a>
@@ -539,27 +453,27 @@
       <div class="flex flex-col items-center xl:items-start gap-[30px]">
         <h1 class="text-[32px] font-playfair text-primary leading-[100%] font-bold">Pages</h1>
         <ul class="flex flex-col items-center xl:items-start gap-[16px]">
-          <a href="index.html">
+          <a href="">
             <li
               class="font-normal text-[18px] lg:text-[20px] transition-all duration-[400] hover:text-text text-text75 leading-[100%]">
               Home</li>
           </a>
-          <a href="about.html">
+          <a href="">
             <li
               class="font-normal text-[18px] lg:text-[20px] transition-all duration-[400] hover:text-text text-text75 leading-[100%]">
               About</li>
           </a>
-          <a href="menu.html">
+          <a href="">
             <li
               class="font-normal text-[18px] lg:text-[20px] transition-all duration-[400] hover:text-text text-text75 leading-[100%]">
               Menu</li>
           </a>
-          <a href="gallery.html">
+          <a href="">
             <li
               class="font-normal text-[18px] lg:text-[20px] transition-all duration-[400] hover:text-text text-text75 leading-[100%]">
               Gallery</li>
           </a>
-          <a href="contact.html">
+          <a href="">
             <li
               class="font-normal text-[18px] lg:text-[20px] transition-all duration-[400] hover:text-text text-text75 leading-[100%]">
               Contact</li>
@@ -570,9 +484,21 @@
         <h1 class="text-[32px] font-playfair text-primary leading-[100%] font-bold">Working Hours</h1>
         <ul class="flex flex-col items-center xl:items-start gap-[6px]">
           <li class="font-normal text-[18px] lg:text-[20px] transition-all duration-[400] text-text75 leading-[100%]">
-            Monday - Saturday</li>
+            Tuesday - Friday</li>
           <li class="font-normal text-[18px] lg:text-[20px] transition-all duration-[400] text-text75 leading-[100%]">
-            09:00 - 18:00</li>
+            08:00 - 19:00</li>
+        </ul>
+        <ul class="flex flex-col items-center xl:items-start gap-[6px]">
+          <li class="font-normal text-[18px] lg:text-[20px] transition-all duration-[400] text-text75 leading-[100%]">
+            Saturday - Sunday</li>
+          <li class="font-normal text-[18px] lg:text-[20px] transition-all duration-[400] text-text75 leading-[100%]">
+            09:00 - 19:00</li>
+        </ul>
+        <ul class="flex flex-col items-center xl:items-start gap-[6px]">
+          <li class="font-normal text-[18px] lg:text-[20px] transition-all duration-[400] text-text75 leading-[100%]">
+            Monday</li>
+          <li class="font-normal text-[18px] lg:text-[20px] transition-all duration-[400] text-text75 leading-[100%]">
+            Closed</li>
         </ul>
       </div>
       <div class="flex flex-col items-center xl:items-start gap-[30px]">
@@ -593,7 +519,7 @@
                 </clipPath>
               </defs>
             </svg>
-            <a href="">123 Main Street, Cityville, XYZ Country</a>
+            <a href="https://maps.app.goo.gl/akrqFu1tqeGDZUxD8" target="_blank">C/ de Roger de Flor, 102, L'Eixample, 08013 Barcelona, İspanya</a>
           </li>
           <li
             class="flex flex-col items-center gap-[16px] xl:flex-row xl:text-left font-normal text-[18px] lg:text-[20px] text-center transition-all duration-[400] text-text75 leading-[100%]">
@@ -610,7 +536,7 @@
                 </clipPath>
               </defs>
             </svg>
-            <a href="tel:+15551234567">+1 (555) 123-4567</a>
+            <a href="tel:+34620902694">+34620902694</a>
           </li>
           <li
             class="flex flex-col items-center xl:flex-row xl:text-left gap-[16px] font-normal text-[18px] lg:text-[20px] text-center transition-all duration-[400] text-text75 leading-[100%]">
@@ -627,7 +553,7 @@
     </footer>
     <div
       class="relative mt-[80px] copyright animate__animated pb-[100px] flex flex-col md:flex-row items-center justify-between w-full px-[20px] md:px-[60px] 2xl:px-[140px] 3xl:px-[200px]">
-      <span class="text-[18px] lg:text-[20px] text-center font-normal text-text75">Copyright ©2024. All Rights
+      <span class="text-[18px] lg:text-[20px] text-center font-normal text-text75">Brew Coffee Copyright ©2024. All Rights
         Reserved.</span>
       <svg class="mt-[40px] md:mt-0" width="101" height="40" viewBox="0 0 101 40" fill="none"
         xmlns="http://www.w3.org/2000/svg">
@@ -643,7 +569,7 @@
   <script>
     // menu - coffees
     var currentImageIndexCoffees = 0;
-    var imagesCoffees = ["menu-card-img2_1.jpeg", "menu-card-img2_2.jpeg", "menu-card-img2_3.jpeg"];
+    var imagesCoffees = ["espresso.jpg", "flat-white.jpg", "cappucino.jpg"];
 
     function openModalCoffees(imageSrc) {
       var modal = document.querySelector(".coffees-modal");
@@ -678,24 +604,24 @@
       modalImg.src = imagesCoffees[currentImageIndexCoffees];
     }
 
-    // menu - snacks
-    var currentImageIndexSnacks = 0;
-    var imagesSnacks = ["menu-card-img3_1.jpeg", "menu-card-img3_2.jpeg", "menu-card-img3_3.jpeg"];
+    // menu - specials
+    var currentImageIndexSpecials = 0;
+    var imagesSpecials = ["mocha-latte.jpg", "caramel-latte.jpg", "hot-chocolate.jpg"];
 
-    function openModalSnacks(imageSrc) {
-      var modal = document.querySelector(".snacks-modal");
-      var modalImg = document.querySelector(".modal-img-snacks");
+    function openModalSpecials(imageSrc) {
+      var modal = document.querySelector(".specials-modal");
+      var modalImg = document.querySelector(".modal-img-specials");
       modal.classList.add("z-[999]");
       modal.classList.add("!block");
       setTimeout(() => {
         modal.classList.add("opacity-100");
       }, 10)
       modalImg.src = imageSrc;
-      currentImageIndexSnacks = imagesSnacks.indexOf(imageSrc)
+      currentImageIndexSpecials = imagesSpecials.indexOf(imageSrc)
     }
 
-    function closeModalSnacks() {
-      var modal = document.querySelector(".snacks-modal");
+    function closeModalSpecials() {
+      var modal = document.querySelector(".specials-modal");
       modal.classList.remove("opacity-100");
       setTimeout(() => {
         modal.classList.remove("!block");
@@ -703,36 +629,36 @@
       }, 300)
     }
 
-    function showNextImageSnacks() {
-      currentImageIndexSnacks = (currentImageIndexSnacks + 1) % imagesSnacks.length;
-      var modalImg = document.querySelector(".modal-img-snacks");
-      modalImg.src = imagesSnacks[currentImageIndexSnacks];
+    function showNextImageSpecials() {
+      currentImageIndexSpecials = (currentImageIndexSpecials + 1) % imagesSpecials.length;
+      var modalImg = document.querySelector(".modal-img-specials");
+      modalImg.src = imagesSpecials[currentImageIndexSpecials];
     }
 
-    function showPrevImageSnacks() {
-      currentImageIndexSnacks = (currentImageIndexSnacks - 1 + imagesSnacks.length) % imagesSnacks.length;
-      var modalImg = document.querySelector(".modal-img-snacks");
-      modalImg.src = imagesSnacks[currentImageIndexSnacks];
+    function showPrevImageSpecials() {
+      currentImageIndexSpecials = (currentImageIndexSpecials - 1 + imagesSpecials.length) % imagesSpecials.length;
+      var modalImg = document.querySelector(".modal-img-specials");
+      modalImg.src = imagesSpecials[currentImageIndexSpecials];
     }
 
-    // menu - beverages
-    var currentImageIndexBeverages = 0;
-    var imagesBeverages = ["menu-card-img4_1.jpeg", "menu-card-img4_2.jpeg", "menu-card-img4_3.jpeg"];
+    // menu - filter
+    var currentImageIndexFilter = 0;
+    var imagesFilter = ["batch-brew.jpg", "aeropress.jpg", "chemex.jpg"];
 
-    function openModalBeverages(imageSrc) {
-      var modal = document.querySelector(".beverages-modal");
-      var modalImg = document.querySelector(".modal-img-beverages");
+    function openModalFilter(imageSrc) {
+      var modal = document.querySelector(".filter-modal");
+      var modalImg = document.querySelector(".modal-img-filter");
       modal.classList.add("z-[999]");
       modal.classList.add("!block");
       setTimeout(() => {
         modal.classList.add("opacity-100");
       }, 10)
       modalImg.src = imageSrc;
-      currentImageIndexBeverages = imagesBeverages.indexOf(imageSrc)
+      currentImageIndexFilter = imagesFilter.indexOf(imageSrc)
     }
 
-    function closeModalBeverages() {
-      var modal = document.querySelector(".beverages-modal");
+    function closeModalFilter() {
+      var modal = document.querySelector(".filter-modal");
       modal.classList.remove("opacity-100");
       setTimeout(() => {
         modal.classList.remove("!block");
@@ -740,58 +666,21 @@
       }, 300)
     }
 
-    function showNextImageBeverages() {
-      currentImageIndexBeverages = (currentImageIndexBeverages + 1) % imagesBeverages.length;
-      var modalImg = document.querySelector(".modal-img-beverages");
-      modalImg.src = imagesBeverages[currentImageIndexBeverages];
+    function showNextImageFilter() {
+      currentImageIndexFilter = (currentImageIndexFilter + 1) % imagesFilter.length;
+      var modalImg = document.querySelector(".modal-img-filter");
+      modalImg.src = imagesFilter[currentImageIndexFilter];
     }
 
-    function showPrevImageBeverages() {
-      currentImageIndexBeverages = (currentImageIndexBeverages - 1 + imagesBeverages.length) % imagesBeverages.length;
-      var modalImg = document.querySelector(".modal-img-beverages");
-      modalImg.src = imagesBeverages[currentImageIndexBeverages];
-    }
-
-    // menu - desserts
-    var currentImageIndexDesserts = 0;
-    var imagesDesserts = ["menu-card-img1_1.jpeg", "menu-card-img1_2.jpeg", "menu-card-img1_3.jpeg"];
-
-    function openModalDesserts(imageSrc) {
-      var modal = document.querySelector(".desserts-modal");
-      var modalImg = document.querySelector(".modal-img-desserts");
-      modal.classList.add("z-[999]");
-      modal.classList.add("!block");
-      setTimeout(() => {
-        modal.classList.add("opacity-100");
-      }, 10)
-      modalImg.src = imageSrc;
-      currentImageIndexDesserts = imagesDesserts.indexOf(imageSrc)
-    }
-
-    function closeModalDesserts() {
-      var modal = document.querySelector(".desserts-modal");
-      modal.classList.remove("opacity-100");
-      setTimeout(() => {
-        modal.classList.remove("!block");
-        modal.classList.remove("z-[999]");
-      }, 300)
-    }
-
-    function showNextImageDesserts() {
-      currentImageIndexDesserts = (currentImageIndexDesserts + 1) % imagesDesserts.length;
-      var modalImg = document.querySelector(".modal-img-desserts");
-      modalImg.src = imagesDesserts[currentImageIndexDesserts];
-    }
-
-    function showPrevImageDesserts() {
-      currentImageIndexDesserts = (currentImageIndexDesserts - 1 + imagesDesserts.length) % imagesDesserts.length;
-      var modalImg = document.querySelector(".modal-img-desserts");
-      modalImg.src = imagesDesserts[currentImageIndexDesserts];
+    function showPrevImageFilter() {
+      currentImageIndexFilter = (currentImageIndexFilter - 1 + imagesFilter.length) % imagesFilter.length;
+      var modalImg = document.querySelector(".modal-img-filter");
+      modalImg.src = imagesFilter[currentImageIndexFilter];
     }
 
     // gallery
     var currentImageIndexGallery = 0;
-    var imagesGallery = ["gallery-1.jpeg", "gallery-2.jpeg", "gallery-3.jpeg", "gallery-4.jpeg", "gallery-5.jpeg", "gallery-6.jpeg"];
+    var imagesGallery = ["gallery-1.jpg", "gallery-2.jpg", "gallery-3.jpg", "gallery-4.jpg", "gallery-5.jpg", "gallery-6.jpg"];
 
     function openModalGallery(imageSrc) {
       var modal = document.querySelector(".gallery-modal");
